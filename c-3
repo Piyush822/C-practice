@@ -1,0 +1,30 @@
+// Define a function that will display grades
+#include<iostream>
+using namespace std;
+
+void displayGrade(int marks)
+{
+  if(marks>91 ){
+    cout<<"AA"<<endl;
+  }
+  else if(marks>81){
+    cout<<"AB"<<endl;
+  }
+  else if(marks>71){
+    cout<<"BB"<<endl;
+  }
+  else{
+    cout<<"Fail"<<endl;
+  }
+}
+
+int main(){
+
+   int marks;
+   cin>>marks;
+
+
+    displayGrade(marks);
+    return 0;
+
+}
