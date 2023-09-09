@@ -1,0 +1,20 @@
+//calcSum of three integer
+#include<iostream>
+using namespace std;
+
+int calcSum(int a, int b, int c)
+{
+     int sum=a+b+c;
+     return sum;
+}
+
+int main(){
+  int num1,num2,num3,result;
+  cin>>num1>>num2>>num3>>result;
+
+   result=calcSum(num1,num2,num3);
+  cout<<result<<endl;
+
+  return 0;
+
+}
